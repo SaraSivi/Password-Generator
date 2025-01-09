@@ -1,0 +1,67 @@
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(196, 7, 130)
+}
+
+/* Container Styling */
+.container {
+  text-align: center;
+  background: #c106f0;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title Styling */
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 26px;
+  color: rgb(22, 7, 241);
+}
+
+/* Input Field Styling */
+input {
+  width: 450px;
+  height: 40px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid rgb(196, 7, 130);
+  border-radius: 20px;
+  text-align: center;
+  color: #2c3e50; /* Dark text */
+  margin-bottom: 40px;
+}
+
+/* Button Container */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+ 
+}
+
+/* Button Base Styling */
+button {
+  font-size: 15px;
+  border: 2px solid black;
+  width: 155px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: rgb(63, 161, 24);
+  transition: .05s;
+}
+
+
+
