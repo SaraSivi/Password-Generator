@@ -63,5 +63,31 @@ button {
   transition: .05s;
 }
 
+/* Adding @media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Container Styling */
+  .container {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Input Field Styling */
+  input {
+    width: 80%;
+  }
+
+  /* Button Container */
+  .buttons {
+    flex-direction: column;
+  }
+
+  /* Button Base Styling */
+  button {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
 
 
